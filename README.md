@@ -1,4 +1,4 @@
-# TrailerBank
+# TrailerBank - Movie API
 
 This is a simple React application that allows users to search for movies, view details, and play trailers. It utilizes The Movie Database (TMDb) API to fetch movie information.
 
