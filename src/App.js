@@ -7,7 +7,7 @@ import MovieDetails from './Components/Movies/MovieDetails'
 import Header from './Components/Header/Header'
 import MyFooter from './Components/Footer/Footer.js'
 
-const API_KEY = process.env.REACT_APP_MOVIE_API_KEY
+const API_KEY = "52ab9dae918349a06e54387f60aed633"
 const URL_API = 'https://api.themoviedb.org/3/'
 const MOVIE_API = URL_API + 'discover/movie'
 const SEARCH_API = URL_API + 'search/movie'
