@@ -1,0 +1,40 @@
+form {
+	display: flex;
+	align-items: center;
+}
+
+.searchForm {
+	position: relative;
+}
+
+.inputField {
+	padding-right: 30px;
+	padding: 8px;
+	border: 1px solid #fd2155;
+	border-radius: 5px;
+	font-size: 18px;
+	color: #1d1d1d;
+}
+
+.inputField::placeholder {
+	font-style: italic;
+}
+
+.searchButton {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	color: #212529;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+	.inputField {
+		width: 100%;
+	}
+}

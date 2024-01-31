@@ -1,0 +1,44 @@
+.poster {
+	max-width: 100%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+.poster:hover {
+	transform: scale(1.05);
+}
+.title {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.poster {
+		max-width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+	.title {
+		text-align: center;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+	.poster {
+		max-width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+	.title {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.poster {
+		max-width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+	.title {
+		text-align: center;
+	}
+}
