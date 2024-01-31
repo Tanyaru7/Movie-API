@@ -64,3 +64,6 @@ Feel free to contribute by submitting issues or pull requests. Suggestions and i
 
 The application uses The Movie Database (TMDb) API to fetch movie information. `https://www.themoviedb.org/`
 This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+# Git clone
+https://github.com/Tanyaru7/Movie-API.git
